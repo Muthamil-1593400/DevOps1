@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:alpine-jdk11
+FROM jenkins/jenkins:alpine
 USER root
 
 RUN mkdir -p /tmp/download && \
